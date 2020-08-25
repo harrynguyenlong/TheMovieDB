@@ -10,7 +10,7 @@
 		3D045E6224CD7A07001EEEE9 /* MovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6124CD7A07001EEEE9 /* MovieRequest.swift */; };
 		3D045E6424CD7AF4001EEEE9 /* GetMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6324CD7AF4001EEEE9 /* GetMovieService.swift */; };
 		3D045E6624CD7DC1001EEEE9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6524CD7DC1001EEEE9 /* Constants.swift */; };
-		3D045E6824CD8B4A001EEEE9 /* MainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6724CD8B4A001EEEE9 /* MainViewControllerViewModel.swift */; };
+		3D045E6824CD8B4A001EEEE9 /* MainViewControllerLogicControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6724CD8B4A001EEEE9 /* MainViewControllerLogicControllers.swift */; };
 		3D045E6B24CD9B2C001EEEE9 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6A24CD9B2C001EEEE9 /* ItemCell.swift */; };
 		3D045E6E24CD9C48001EEEE9 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3D045E6D24CD9C48001EEEE9 /* SDWebImage */; };
 		3D045E7024CDA404001EEEE9 /* GetMoviesServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D045E6F24CDA404001EEEE9 /* GetMoviesServiceTest.swift */; };
@@ -47,7 +47,7 @@
 		3D045E6124CD7A07001EEEE9 /* MovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequest.swift; sourceTree = "<group>"; };
 		3D045E6324CD7AF4001EEEE9 /* GetMovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMovieService.swift; sourceTree = "<group>"; };
 		3D045E6524CD7DC1001EEEE9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3D045E6724CD8B4A001EEEE9 /* MainViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerViewModel.swift; sourceTree = "<group>"; };
+		3D045E6724CD8B4A001EEEE9 /* MainViewControllerLogicControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerLogicControllers.swift; sourceTree = "<group>"; };
 		3D045E6A24CD9B2C001EEEE9 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		3D045E6F24CDA404001EEEE9 /* GetMoviesServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMoviesServiceTest.swift; sourceTree = "<group>"; };
 		3D045E7124CDA45B001EEEE9 /* MockedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedObjects.swift; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		3D2ED56824CA32CA00779973 /* LogicControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3D045E6724CD8B4A001EEEE9 /* MainViewControllerViewModel.swift */,
+				3D045E6724CD8B4A001EEEE9 /* MainViewControllerLogicControllers.swift */,
 			);
 			name = LogicControllers;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 				3D045E6624CD7DC1001EEEE9 /* Constants.swift in Sources */,
 				3D2ED56F24CA431700779973 /* Request.swift in Sources */,
 				3D2ED54424CA2DF600779973 /* SceneDelegate.swift in Sources */,
-				3D045E6824CD8B4A001EEEE9 /* MainViewControllerViewModel.swift in Sources */,
+				3D045E6824CD8B4A001EEEE9 /* MainViewControllerLogicControllers.swift in Sources */,
 				3D2ED57724CA43D900779973 /* NetworkDispatcher.swift in Sources */,
 				3D2ED57124CA434200779973 /* Response.swift in Sources */,
 				3D2ED56D24CA3D1C00779973 /* Utils.swift in Sources */,
