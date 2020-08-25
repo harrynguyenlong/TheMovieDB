@@ -1,9 +1,6 @@
-rvm:
- - 2.2
- - jruby
 os: osx
 language: swift
 osx_image: xcode11.6
-xcode_project: TheMovieDB.xcodeproj # path to your xcodeproj folder
+xcode_project: TheMovieDB/TheMovieDB.xcodeproj # path to your xcodeproj folder
 xcode_scheme: TheMovieDBTests
 xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
