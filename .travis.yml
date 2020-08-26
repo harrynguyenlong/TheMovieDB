@@ -1,6 +1,4 @@
 os: osx
 language: swift
 osx_image: xcode11.6
-xcode_project: TheMovieDB.xcodeproj # path to your xcodeproj folder
-xcode_scheme: TheMovieDBTests
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+script: xcodebuild clean build test -project TheMovieDB.xcodeproj -scheme TheMovieDB -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=13.6,name=iPhone 11' ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO
