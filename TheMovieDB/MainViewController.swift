@@ -85,7 +85,7 @@ private extension MainViewController {
                 self.collectionView.reloadData()
             case .failed(_):
                 ()
-                // Show an error view
+                // Show an error view for example this one
             }
         }
     }
